@@ -1,0 +1,2432 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid CollectionType="Temporal" GridType="Collection" Name="Mesh Spatial_Domain">
+      <Grid GridType="Uniform">
+        <Time Value="0.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain0</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain0</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes0</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u00</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain1</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain1</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes1</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u01</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain2</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain2</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes2</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u02</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain3</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain3</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes3</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u03</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain4</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain4</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes4</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u04</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="1000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain5</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain5</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes5</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u05</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="1200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain6</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain6</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes6</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u06</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="1400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain7</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain7</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes7</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u07</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="1600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain8</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain8</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes8</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u08</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="1800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain9</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain9</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes9</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u09</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="2000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain10</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain10</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain10</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain10</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes10</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes10</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u010</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="2200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain11</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain11</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain11</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain11</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes11</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes11</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u011</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="2400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain12</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain12</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain12</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain12</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes12</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes12</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u012</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="2600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain13</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain13</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain13</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain13</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes13</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes13</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u013</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="2800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain14</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain14</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain14</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain14</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes14</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes14</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u014</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="3000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain15</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain15</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain15</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain15</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes15</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes15</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u015</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="3200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain16</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain16</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain16</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain16</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes16</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes16</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u016</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="3400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain17</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain17</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain17</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain17</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes17</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes17</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u017</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="3600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain18</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain18</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain18</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain18</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes18</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes18</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u018</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="3800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain19</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain19</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain19</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain19</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes19</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes19</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u019</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="4000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain20</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain20</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain20</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain20</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes20</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes20</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u020</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="4200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain21</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain21</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain21</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain21</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes21</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes21</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u021</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="4400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain22</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain22</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain22</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain22</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes22</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes22</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u022</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="4600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain23</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain23</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain23</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain23</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes23</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes23</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u023</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="4800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain24</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain24</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain24</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain24</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes24</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes24</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u024</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="5000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain25</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain25</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain25</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain25</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes25</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes25</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u025</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="5200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain26</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain26</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain26</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain26</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes26</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes26</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u026</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="5400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain27</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain27</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain27</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain27</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes27</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes27</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u027</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="5600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain28</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain28</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain28</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain28</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes28</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes28</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u028</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="5800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain29</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain29</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain29</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain29</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes29</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes29</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u029</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="6000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain30</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain30</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain30</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain30</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes30</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes30</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u030</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="6200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain31</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain31</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain31</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain31</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes31</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes31</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u031</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="6400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain32</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain32</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain32</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain32</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes32</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes32</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u032</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="6600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain33</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain33</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain33</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain33</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes33</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes33</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u033</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="6800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain34</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain34</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain34</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain34</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes34</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes34</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u034</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="7000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain35</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain35</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain35</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain35</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes35</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes35</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u035</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="7200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain36</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain36</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain36</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain36</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes36</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes36</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u036</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="7400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain37</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain37</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain37</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain37</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes37</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes37</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u037</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="7600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain38</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain38</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain38</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain38</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes38</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes38</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u038</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="7800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain39</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain39</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain39</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain39</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes39</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes39</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u039</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="8000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain40</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain40</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain40</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain40</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes40</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes40</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u040</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="8200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain41</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain41</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain41</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain41</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes41</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes41</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u041</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="8400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain42</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain42</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain42</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain42</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes42</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes42</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u042</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="8600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain43</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain43</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain43</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain43</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes43</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes43</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u043</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="8800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain44</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain44</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain44</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain44</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes44</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes44</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u044</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="9000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain45</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain45</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain45</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain45</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes45</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes45</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u045</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="9200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain46</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain46</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain46</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain46</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes46</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes46</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u046</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="9400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain47</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain47</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain47</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain47</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes47</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes47</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u047</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="9600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain48</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain48</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain48</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain48</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes48</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes48</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u048</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="9800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain49</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain49</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain49</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain49</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes49</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes49</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u049</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="10000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain50</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain50</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain50</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain50</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes50</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes50</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u050</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="10200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain51</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain51</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain51</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain51</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes51</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes51</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u051</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="10400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain52</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain52</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain52</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain52</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes52</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes52</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u052</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="10600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain53</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain53</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain53</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain53</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes53</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes53</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u053</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="10800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain54</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain54</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain54</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain54</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes54</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes54</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u054</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="11000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain55</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain55</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain55</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain55</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes55</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes55</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u055</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="11200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain56</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain56</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain56</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain56</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes56</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes56</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u056</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="11400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain57</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain57</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain57</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain57</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes57</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes57</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u057</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="11600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain58</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain58</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain58</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain58</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes58</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes58</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u058</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="11800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain59</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain59</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain59</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain59</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes59</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes59</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u059</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="12000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain60</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain60</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain60</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain60</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes60</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes60</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u060</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="12200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain61</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain61</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain61</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain61</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes61</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes61</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u061</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="12400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain62</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain62</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain62</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain62</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes62</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes62</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u062</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="12600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain63</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain63</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain63</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain63</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes63</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes63</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u063</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="12800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain64</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain64</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain64</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain64</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes64</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes64</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u064</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="13000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain65</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain65</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain65</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain65</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes65</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes65</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u065</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="13200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain66</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain66</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain66</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain66</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes66</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes66</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u066</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="13400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain67</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain67</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain67</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain67</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes67</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes67</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u067</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="13600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain68</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain68</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain68</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain68</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes68</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes68</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u068</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="13800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain69</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain69</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain69</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain69</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes69</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes69</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u069</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="14000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain70</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain70</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain70</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain70</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes70</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes70</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u070</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="14200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain71</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain71</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain71</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain71</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes71</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes71</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u071</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="14400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain72</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain72</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain72</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain72</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes72</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes72</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u072</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="14600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain73</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain73</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain73</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain73</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes73</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes73</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u073</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="14800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain74</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain74</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain74</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain74</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes74</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes74</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u074</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="15000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain75</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain75</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain75</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain75</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes75</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes75</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u075</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="15200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain76</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain76</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain76</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain76</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes76</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes76</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u076</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="15400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain77</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain77</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain77</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain77</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes77</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes77</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u077</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="15600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain78</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain78</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain78</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain78</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes78</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes78</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u078</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="15800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain79</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain79</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain79</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain79</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes79</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes79</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u079</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="16000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain80</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain80</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain80</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain80</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes80</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes80</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u080</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="16200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain81</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain81</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain81</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain81</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes81</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes81</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u081</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="16400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain82</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain82</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain82</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain82</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes82</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes82</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u082</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="16600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain83</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain83</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain83</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain83</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes83</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes83</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u083</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="16800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain84</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain84</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain84</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain84</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes84</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes84</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u084</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="17000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain85</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain85</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain85</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain85</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes85</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes85</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u085</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="17200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain86</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain86</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain86</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain86</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes86</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes86</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u086</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="17400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain87</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain87</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain87</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain87</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes87</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes87</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u087</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="17600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain88</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain88</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain88</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain88</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes88</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes88</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u088</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="17800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain89</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain89</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain89</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain89</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes89</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes89</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u089</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="18000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain90</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain90</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain90</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain90</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes90</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes90</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u090</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="18200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain91</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain91</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain91</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain91</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes91</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes91</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u091</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="18400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain92</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain92</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain92</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain92</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes92</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes92</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u092</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="18600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain93</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain93</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain93</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain93</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes93</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes93</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u093</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="18800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain94</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain94</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain94</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain94</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes94</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes94</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u094</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="19000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain95</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain95</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain95</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain95</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes95</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes95</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u095</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="19200.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain96</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain96</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain96</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain96</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes96</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes96</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u096</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="19400.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain97</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain97</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain97</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain97</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes97</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes97</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u097</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="19600.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain98</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain98</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain98</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain98</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes98</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes98</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u098</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="19800.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain99</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain99</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain99</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain99</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes99</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes99</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u099</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid GridType="Uniform">
+        <Time Value="20000.0" />
+        <Topology NumberOfElements="100" Type="Polyline">
+          <DataItem DataType="Int" Dimensions="100 2" Format="HDF">Fickian0.h5:/elementsSpatial_Domain100</DataItem>
+        </Topology>
+        <Geometry Type="XYZ">
+          <DataItem DataType="Float" Dimensions="101 3" Format="HDF" Precision="8">Fickian0.h5:/nodesSpatial_Domain100</DataItem>
+        </Geometry>
+        <Attribute AttributeType="Scalar" Center="Node" Name="NodeMapL2G">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF" Precision="4">Fickian0.h5:/nodeMapL2GSpatial_Domain100</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="CellMapL2G">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF" Precision="4">Fickian0.h5:/cellMapL2GSpatial_Domain100</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="nodeMaterialTypes">
+          <DataItem DataType="Int" Dimensions="101" Format="HDF">Fickian0.h5:/nodeMaterialTypes100</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Cell" Name="elementMaterialTypes">
+          <DataItem DataType="Int" Dimensions="100" Format="HDF">Fickian0.h5:/elementMaterialTypes100</DataItem>
+        </Attribute>
+        <Attribute AttributeType="Scalar" Center="Node" Name="u0">
+          <DataItem DataType="Float" Dimensions="101" Format="HDF" Precision="8">Fickian0.h5:/u0100</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
